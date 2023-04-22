@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
 }
 
 article,aside,footer,header,nav,section {
@@ -381,8 +381,9 @@ body {
     overflow-wrap: break-word;
     position: relative;
     background-color: #202224;
-    background: url(//redacted.ch/static/styles/postmod/images/wood.jpg) no-repeat fixed;
+    background-image: url(../assets/backgrounds/Dark-down.svg)
 }
+
 @media only screen and (max-width: 789px) {
     body {
         min-width:unset

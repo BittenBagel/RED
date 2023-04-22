@@ -1,3 +1,367 @@
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article,aside,footer,header,nav,section {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+figcaption,figure,main {
+    display: block
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+pre {
+    font-family: monospace,monospace;
+    font-size: 1em
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
+}
+
+b,strong {
+    font-weight: inherit;
+    font-weight: bolder
+}
+
+code,kbd,samp {
+    font-family: monospace,monospace;
+    font-size: 1em
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background-color: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+audio,video {
+    display: inline-block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+img {
+    border-style: none
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+button,input,optgroup,select,textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button,input {
+    overflow: visible
+}
+
+button,select {
+    text-transform: none
+}
+
+[type=reset],[type=submit],button,html [type=button] {
+    -webkit-appearance: button
+}
+
+[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    padding: .35em .75em .625em
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+progress {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox],[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+details,menu {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+canvas {
+    display: inline-block
+}
+
+[hidden],template {
+    display: none
+}
+
+#requests .thin .linkbox:nth-of-type(2) a:first-of-type,#top10 .thin .linkbox:nth-of-type(2) a,#user h3 a:not(:first-of-type),#wiki .thin .linkbox:first-of-type a,.random_links a {
+    border-radius: 3px;
+    display: inline-block;
+    line-height: normal;
+    margin: 0 0 0 6px;
+    padding: 5px 8px;
+    -webkit-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    transition: all .1s linear;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,hsla(0,0%,100%,.02)),to(hsla(0,0%,100%,0)));
+    background: -webkit-linear-gradient(top,hsla(0,0%,100%,.02),hsla(0,0%,100%,0));
+    background: -o-linear-gradient(top,hsla(0,0%,100%,.02) 0,hsla(0,0%,100%,0) 100%);
+    background: linear-gradient(180deg,hsla(0,0%,100%,.02) 0,hsla(0,0%,100%,0));
+    border: 1px solid #252627;
+    -webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,.4);
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.4);
+    color: #999
+}
+
+#requests .thin .linkbox:nth-of-type(2) a:hover:first-of-type,#top10 .thin .linkbox:nth-of-type(2) a:hover,#user h3 a:hover:not(:first-of-type),#wiki .thin .linkbox:first-of-type a:hover,.random_links a:hover {
+    border-color: #3a3b3c;
+    color: #aaa
+}
+
+#artist .edit_form,#artist_information,#changelog .changelog_entry,#collage .create_form,#edit_collage,#filter_form,#friends .friends_table,#inbox #searchbox,#questions .box2,#reportform,#reports .box,#similar_artist_map,#staff .box,#torrents .edit_form,#torrents .torrent_description,#upload #content>div,#user .edit_form:not(#userform),.inbox_message,.sidebar .box,.users_reports_table,.vertical_space.box,table.forum_post {
+    background-color: #202224;
+    border: 1px solid #282b2e;
+    -webkit-box-shadow: 0 0 4px 1px rgba(0,0,0,.2);
+    box-shadow: 0 0 4px 1px rgba(0,0,0,.2)
+}
+
+.inbox_message .head,.vertical_space.box .head,table.forum_post .colhead_dark td {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    line-height: 32px;
+    padding: 0 0 0 5px;
+    vertical-align: middle;
+    background: #351c1e;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#381f20),to(#351c1e));
+    background: -webkit-linear-gradient(top,#381f20,#351c1e);
+    background: -o-linear-gradient(top,#381f20 0,#351c1e 100%);
+    background: linear-gradient(180deg,#381f20 0,#351c1e);
+    border: 1px solid #362424;
+    color: #846767;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4)
+}
+
+#better table,#inbox #messageform table,#log_table,#rules table,#top10 .torrent_table,#torrents .vote_matches_table,#upload #dnulist,#userhistory table:not(.forum_post):not(.users_reports_table),.collage_table,.forum_list.border,.request_table,.torrent_table,.users_reports_table,.wiki_log_table,table.staff {
+    margin-bottom: 20px
+}
+
+#better table .rowa,#inbox #messageform table .rowa,#log_table .rowa,#rules table .rowa,#top10 .torrent_table .rowa,#torrents .vote_matches_table .rowa,#upload #dnulist .rowa,#userhistory table:not(.forum_post):not(.users_reports_table) .rowa,.collage_table .rowa,.forum_list.border .rowa,.request_table .rowa,.torrent_table .rowa,.users_reports_table .rowa,.wiki_log_table .rowa,table.staff .rowa {
+    background: #1d1d1d
+}
+
+#better table .rowb,#inbox #messageform table .rowb,#log_table .rowb,#rules table .rowb,#top10 .torrent_table .rowb,#torrents .vote_matches_table .rowb,#upload #dnulist .rowb,#userhistory table:not(.forum_post):not(.users_reports_table) .rowb,.collage_table .rowb,.forum_list.border .rowb,.request_table .rowb,.torrent_table .rowb,.users_reports_table .rowb,.wiki_log_table .rowb,table.staff .rowb {
+    background: #1e1e1e
+}
+
+#better table tr.colhead_dark td,#better table tr.colhead td,#inbox #messageform table tr.colhead_dark td,#inbox #messageform table tr.colhead td,#log_table tr.colhead_dark td,#log_table tr.colhead td,#rules table tr.colhead_dark td,#rules table tr.colhead td,#top10 .torrent_table tr.colhead_dark td,#top10 .torrent_table tr.colhead td,#torrents .vote_matches_table tr.colhead_dark td,#torrents .vote_matches_table tr.colhead td,#upload #dnulist tr.colhead_dark td,#upload #dnulist tr.colhead td,#userhistory table:not(.forum_post):not(.users_reports_table) tr.colhead_dark td,#userhistory table:not(.forum_post):not(.users_reports_table) tr.colhead td,.collage_table tr.colhead_dark td,.collage_table tr.colhead td,.forum_list.border tr.colhead_dark td,.forum_list.border tr.colhead td,.request_table tr.colhead_dark td,.request_table tr.colhead td,.torrent_table tr.colhead_dark td,.torrent_table tr.colhead td,.users_reports_table tr.colhead_dark td,.users_reports_table tr.colhead td,.wiki_log_table tr.colhead_dark td,.wiki_log_table tr.colhead td,table.staff tr.colhead_dark td,table.staff tr.colhead td {
+    color: #fd5656;
+    font-size: 1.1em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    vertical-align: middle;
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0,hsla(0,0%,4%,.4)),to(hsla(0,0%,8%,.35)));
+    background: -webkit-linear-gradient(bottom,hsla(0,0%,4%,.4),hsla(0,0%,8%,.35));
+    background: -o-linear-gradient(bottom,hsla(0,0%,4%,.4) 0,hsla(0,0%,8%,.35) 100%);
+    background: linear-gradient(0deg,hsla(0,0%,4%,.4) 0,hsla(0,0%,8%,.35));
+    text-shadow: 1px 1px 1px rgba(0,0,0,.5)
+}
+
+#better table .colhead a,#inbox #messageform table .colhead a,#log_table .colhead a,#rules table .colhead a,#top10 .torrent_table .colhead a,#torrents .vote_matches_table .colhead a,#upload #dnulist .colhead a,#userhistory table:not(.forum_post):not(.users_reports_table) .colhead a,.collage_table .colhead a,.forum_list.border .colhead a,.request_table .colhead a,.torrent_table .colhead a,.users_reports_table .colhead a,.wiki_log_table .colhead a,table.staff .colhead a {
+    color: #dadada
+}
+
+#better table .colhead a:hover,#inbox #messageform table .colhead a:hover,#log_table .colhead a:hover,#rules table .colhead a:hover,#top10 .torrent_table .colhead a:hover,#torrents .vote_matches_table .colhead a:hover,#upload #dnulist .colhead a:hover,#userhistory table:not(.forum_post):not(.users_reports_table) .colhead a:hover,.collage_table .colhead a:hover,.forum_list.border .colhead a:hover,.request_table .colhead a:hover,.torrent_table .colhead a:hover,.users_reports_table .colhead a:hover,.wiki_log_table .colhead a:hover,table.staff .colhead a:hover {
+    color: #bd8282
+}
+
+#better table tr.colhead_dark strong,#better table tr.colhead strong,#inbox #messageform table tr.colhead_dark strong,#inbox #messageform table tr.colhead strong,#log_table tr.colhead_dark strong,#log_table tr.colhead strong,#rules table tr.colhead_dark strong,#rules table tr.colhead strong,#top10 .torrent_table tr.colhead_dark strong,#top10 .torrent_table tr.colhead strong,#torrents .vote_matches_table tr.colhead_dark strong,#torrents .vote_matches_table tr.colhead strong,#upload #dnulist tr.colhead_dark strong,#upload #dnulist tr.colhead strong,#userhistory table:not(.forum_post):not(.users_reports_table) tr.colhead_dark strong,#userhistory table:not(.forum_post):not(.users_reports_table) tr.colhead strong,.collage_table tr.colhead_dark strong,.collage_table tr.colhead strong,.forum_list.border tr.colhead_dark strong,.forum_list.border tr.colhead strong,.request_table tr.colhead_dark strong,.request_table tr.colhead strong,.torrent_table tr.colhead_dark strong,.torrent_table tr.colhead strong,.users_reports_table tr.colhead_dark strong,.users_reports_table tr.colhead strong,.wiki_log_table tr.colhead_dark strong,.wiki_log_table tr.colhead strong,table.staff tr.colhead_dark strong,table.staff tr.colhead strong {
+    font-weight: 400
+}
+
+#better table,#inbox #messageform table,#log_table,#rules table,#top10 .torrent_table,#torrents .vote_matches_table,#upload #dnulist,#userhistory table:not(.forum_post):not(.users_reports_table),.collage_table,.forum_list.border,.request_table,.torrent_table,.users_reports_table,.wiki_log_table,table.staff {
+    border-bottom: 1px solid #282b2e!important;
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0,.4);
+    box-shadow: 0 0 4px rgba(0,0,0,.4)
+}
+
+#better table tr,#inbox #messageform table tr,#log_table tr,#rules table tr,#top10 .torrent_table tr,#torrents .vote_matches_table tr,#upload #dnulist tr,#userhistory table:not(.forum_post):not(.users_reports_table) tr,.collage_table tr,.forum_list.border tr,.request_table tr,.torrent_table tr,.users_reports_table tr,.wiki_log_table tr,table.staff tr {
+    border-left: 1px solid #282b2e!important;
+    border-right: 1px solid #282b2e!important
+}
+
+#better table td,#inbox #messageform table td,#log_table td,#rules table td,#top10 .torrent_table td,#torrents .vote_matches_table td,#upload #dnulist td,#userhistory table:not(.forum_post):not(.users_reports_table) td,.collage_table td,.forum_list.border td,.request_table td,.torrent_table td,.users_reports_table td,.wiki_log_table td,table.staff td {
+    border-top: 1px solid #282b2e!important
+}
+
+#better table tr:not(.colhead):not(.colhead_dark),#inbox #messageform table tr:not(.colhead):not(.colhead_dark),#log_table tr:not(.colhead):not(.colhead_dark),#rules table tr:not(.colhead):not(.colhead_dark),#torrents .vote_matches_table tr:not(.colhead):not(.colhead_dark),#userhistory table:not(.forum_post):not(.users_reports_table) tr:not(.colhead):not(.colhead_dark),.forum_list.border tr:not(.colhead):not(.colhead_dark),.wiki_log_table tr:not(.colhead):not(.colhead_dark),table.staff tr:not(.colhead):not(.colhead_dark) {
+    -webkit-transition: all .1s linear;
+    -o-transition: .1s linear all;
+    transition: all .1s linear
+}
+
+#better table tr:not(.colhead):not(.colhead_dark):hover td,#inbox #messageform table tr:not(.colhead):not(.colhead_dark):hover td,#log_table tr:not(.colhead):not(.colhead_dark):hover td,#rules table tr:not(.colhead):not(.colhead_dark):hover td,#torrents .vote_matches_table tr:not(.colhead):not(.colhead_dark):hover td,#userhistory table:not(.forum_post):not(.users_reports_table) tr:not(.colhead):not(.colhead_dark):hover td,.forum_list.border tr:not(.colhead):not(.colhead_dark):hover td,.wiki_log_table tr:not(.colhead):not(.colhead_dark):hover td,table.staff tr:not(.colhead):not(.colhead_dark):hover td {
+    background-color: #242526;
+    color: #aaa
+}
+
+#upload #dnulist tr:not(.colhead):not(.colhead_dark):nth-of-type(2n) td,.request_table tr:not(.colhead):not(.colhead_dark):nth-of-type(2n) td {
+    background-color: #1b1b1d
+}
+
+#artist_information,#similar_artist_map,#torrents .torrent_description {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    width: 100%;
+    background: #252729
+}
+
+#artist_information .colhead,#artist_information .head,#similar_artist_map .colhead,#similar_artist_map .head,#torrents .torrent_description .colhead,#torrents .torrent_description .head {
+    font-size: 1.1em;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#222),to(#202020));
+    background: -webkit-linear-gradient(bottom,#222,#202020);
+    background: -o-linear-gradient(bottom,#222 0,#202020 100%);
+    background: linear-gradient(0deg,#222 0,#202020);
+    background: #241b1b;
+    border-bottom-color: #333;
+    color: #8a8889;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.45)
+}
+
+#artist_information .colhead a,#artist_information .head a,#similar_artist_map .colhead a,#similar_artist_map .head a,#torrents .torrent_description .colhead a,#torrents .torrent_description .head a {
+    color: #ccc
+}
+
+#artist_information .body,#similar_artist_map .body,#torrents .torrent_description .body {
+    line-height: 1.5em
+}
+
+#artist .edit_form,#collage #edit_collage,#torrents .edit_form,#torrents .merge_form,#torrents .rename_form {
+    margin: 0 auto;
+    padding: 20px 30px;
+    position: relative;
+    width: 95%
+}
+
+#artist .edit_form textarea,#collage #edit_collage textarea,#torrents .edit_form textarea,#torrents .merge_form textarea,#torrents .rename_form textarea {
+    display: block;
+    margin: 0 auto;
+    resize: vertical
+}
+
+#artist .edit_form h3,#collage #edit_collage h3,#torrents .edit_form h3,#torrents .merge_form h3,#torrents .rename_form h3 {
+    display: inline-block;
+    font-size: 1.2em;
+    margin-right: 5px
+}
+
+#artist .edit_form input[type=submit],#collage #edit_collage input[type=submit],#torrents .edit_form input[type=submit],#torrents .merge_form input[type=submit],#torrents .rename_form input[type=submit] {
+    bottom: 10px;
+    position: absolute;
+    right: 30px
+}
+
 
 html {
 line-height:1.15;

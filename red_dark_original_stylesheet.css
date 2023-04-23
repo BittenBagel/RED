@@ -313,7 +313,7 @@ body{
     overflow-wrap:break-word;
     position:relative;
     background-color:#202224;
-    background: : url(//redacted.ch/static/styles/postmod/images/wood.jpg);
+    background: url(//redacted.ch/static/styles/postmod/images/wood.jpg) no-repeat fixed;
 }
 @media only screen and (max-width:789px){
     body{

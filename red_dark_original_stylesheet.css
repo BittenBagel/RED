@@ -380,7 +380,7 @@ body {
     min-width: 950px;
     overflow-wrap: break-word;
     position: relative;
-    background-color: #202224;
+    /*background-color: #202224;*/
     background: url(//redacted.ch/static/styles/postmod/images/wood.jpg) no-repeat fixed;
 }
 
